@@ -1,0 +1,26 @@
+/**
+ *	PROJECT			:		Vannkorn Dev
+ *	DEVELOPER		:		Vannkorn Tepken
+ *	DEVELOPER URI	:		http://vannkorn.info
+ *	DATE			:		23-April-2015
+ */
+
+@import "bootstrap-compass";
+@import "variables";
+@import "bootstrap";
+@import "compass/css3";
+
+html, body {
+	height: 100%;
+}
+.container {
+	display: table;
+	height: 100%;
+	width: 100%;
+	
+	.jumbo {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
